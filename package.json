@@ -1,0 +1,30 @@
+{
+  "name": "ecommere",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhpro122/Ecommece.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanhpro122/Ecommece/issues"
+  },
+  "homepage": "https://github.com/khanhpro122/Ecommece#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redux-thunk": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "nodemon": "^2.0.14"
+  }
+}

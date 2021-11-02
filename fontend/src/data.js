@@ -6,6 +6,7 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 10,
             brand: 'Ao',
             rating: 5,
             numReviews: 10,
@@ -17,6 +18,7 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 5,
             brand: 'Ao',
             rating: 5,
             numReviews: 10,
@@ -28,6 +30,7 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 8,
             brand: 'Ao',
             rating: 5,
             numReviews: 10,
@@ -39,6 +42,7 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 10,
             brand: 'Ao',
             rating: 5,
             numReviews: 10,
@@ -50,8 +54,9 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 10,
             brand: 'Ao',
-            rating: 5,
+            rating: 4.5,
             numReviews: 10,
             description: 'high quality product'
         },
@@ -61,8 +66,9 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 10,
             brand: 'Ao',
-            rating: 5,
+            rating: 4,
             numReviews: 10,
             description: 'high quality product'
         },
@@ -72,6 +78,7 @@ const data = {
             category: 'Shirts',
             image: '/images/product1.png',
             price: 120,
+            countInStock: 10,
             brand: 'Ao',
             rating: 5,
             numReviews: 10,
@@ -80,4 +87,4 @@ const data = {
     ],
 };
 
-export default data
+export default data 
